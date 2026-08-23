@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="PianoMan0">
+  <meta name="keywords" content="Blahaj, Platformer, Game">
+  <meta name="description" content="Blahaj but in platformer?! What will the neighbors think!">
+  <title>Blahaj Platformer</title>
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <div class="ui">
+    <div class="controls">
+      <label>Level: <select id="levelSelect"></select></label>
+      <button id="restart">Restart Level</button>
+      <span id="message"></span>
+    </div>
+    <div class="instructions">Use ← → or A/D to move, Space or W to jump.</div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <script src="js/levels.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
