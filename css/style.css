@@ -1,0 +1,10 @@
+*{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden}
+body{display:flex;flex-direction:column;background:#e9f6ff;color:#111}
+.ui{position:absolute;top:8px;left:8px;right:8px;z-index:10;display:flex;flex-direction:column;gap:6px;background:rgba(255,255,255,0.9);padding:8px;border-radius:6px;max-width:500px}
+.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.instructions{color:#333;font-size:12px}
+canvas{display:block;width:100%;height:100%;background:#87CEEB}
+#message{margin-left:10px;color:green;font-weight:600}
+
+.controls select, .controls button{padding:6px 8px;border-radius:6px;border:1px solid #ccc;background:white}
